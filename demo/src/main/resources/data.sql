@@ -1,0 +1,21 @@
+INSERT INTO user
+(
+`user_id`,
+`email`,
+`first_name`,
+`last_name`,
+`password`,
+`username`,
+`number`,
+`user_since`,
+`approved`)
+VALUES
+(5,
+"giorgos@airbnb.test",
+"Giorgos",
+"Karamanos",
+"$2a$10$YHVRGOscVYeMbIjkf5qRg.lYqB43jrIh1baf2SyeI5K3DfL8Mvj4G",
+"giorgos",
+"6988574635",
+NOW(),
+true);
